@@ -24,4 +24,5 @@ int main(){
     long long int numerKarty = 4388576018402626;
     sumaCoDrugiej(numerKarty) % 10 == 0 ? cout << "karta wazna" << endl : cout << "karta nie wazna" << endl;
     return 0;
+    //test
 }

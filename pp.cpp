@@ -12,5 +12,6 @@ int main(){
     cout << *pName << endl;
     cout << *pAge << endl;
     cout << pFreepizzas << endl;
+    //gowno
     return 0;
 } 
