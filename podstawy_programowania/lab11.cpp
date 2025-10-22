@@ -68,10 +68,10 @@ int main() {
     */
     //****************zadannie4
     struct dane_osobowe osoby[2];
-    for (int i=1;i<=2;i++) {
-        printf("Podaj imie osoby %d: ", i);
+    for (int i=0;i<2;i++) {
+        printf("Podaj imie osoby %d: ", i + 1);
         scanf("%s", osoby[i].imie);
-        printf("Podaj wiek osoby %d: ", i);
+        printf("Podaj wiek osoby %d: ", i + 1);
         scanf("%d", &osoby[i].wiek);
     }
     FILE *plik = fopen("plik.csv", "w");
